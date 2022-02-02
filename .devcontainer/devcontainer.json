@@ -1,0 +1,12 @@
+{
+    "name": "email-challenge",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "workspace",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "ms-python.python",
+        "shardulm94.trailing-spaces"
+    ],
+    "forwardPorts": [
+    ]
+}

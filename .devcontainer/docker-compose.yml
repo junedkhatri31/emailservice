@@ -1,0 +1,12 @@
+services:
+    workspace:
+        image: nikolaik/python-nodejs:python3.10-nodejs17
+        command: sleep infinity
+        volumes:
+            - ..:/workspace:cached
+
+    broker:
+        image: redis:6
+
+volumes:
+    mysql_data:
